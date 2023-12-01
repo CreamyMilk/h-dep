@@ -17,7 +17,7 @@ export default function Page() {
   return (
     <>
       <main className="w-full py-10 px-5 md:w-1/2 lg:w-1/3 flex flex-col items-center mx-auto justify-center gap-4 min-h-screen">
-        <h1 className="font-semibold text-2xl">🏥 Mtiba Queue</h1>
+        <h1 className="font-semibold text-2xl">🏥 Tiba Queue</h1>
         <p className="text-gray-500 text-sm text-center">*_*</p>
         {/* <button className="text-sm text-blue-400 hover:text-blue-500">Read More</button> */}
 
