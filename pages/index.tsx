@@ -15,8 +15,8 @@ export default function Page() {
     setloading(true)
     var fd = new FormData(e.target)
     const body: RegisterReq = {
-      phone: fd.get("name") as string,
-      username: fd.get("phn") as string,
+      phone: fd.get("phn") as string,
+      username: fd.get("name") as string,
       email: fd.get("emaill") as string
     }
     try {
