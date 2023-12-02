@@ -20,7 +20,7 @@ export default function Page() {
       email: fd.get("emaill") as string
     }
     try {
-      const res = await fetch("https://kinyua69.pythonanywhere.com/registeruser", {
+      const res = await fetch("https://project-28da.onrender.com/registeruser", {
         method: 'POST', // Assuming you are sending a POST request
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
@@ -44,7 +44,7 @@ export default function Page() {
     if (!currentPatient) return
     setloading(true)
     try {
-      const res = await fetch("https://kinyua69.pythonanywhere.com/serveUser?id=" + currentPatient?.reference,{method:"POST"})
+      const res = await fetch("https://project-28da.onrender.com/serveUser?id=" + currentPatient?.reference,{method:"POST"})
       if (res.status === 200) {
         const json = await res.json() as Patient
         setCurrentPatient(json)
