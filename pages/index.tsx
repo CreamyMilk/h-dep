@@ -94,7 +94,7 @@ export default function Page() {
             <input required className="border p-2 rounded-lg outline-none mb-5 placeholder:text-sm" name="emaill" type="email" placeholder="E.g test@gmail.com..." />
 
             <label className="text-sm font-demibold text-gray-600" htmlFor="phn">Phone Number</label>
-            <input pattern="\d*" required className="border p-2 rounded-lg outline-none mb-5 placeholder:text-sm" name="phn" type="tel" placeholder="E.g 0721..." />
+            <input required className="border p-2 rounded-lg outline-none mb-5 placeholder:text-sm" name="phn" type="tel" placeholder="E.g +254721..." />
 
             <button disabled={loading} className="w-full bg-blue-600 disabled:bg-blue-500 h-12 hover:bg-blue-500 text-white mt-5">
               {loading ?
